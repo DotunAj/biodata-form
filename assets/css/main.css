@@ -65,14 +65,15 @@ select {
   padding: 12px 20px;
   margin: 25px 0;
   display: block;
-  border: 1px solid #d5d2cf;
+  border: 2px solid #d5d2cf;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px;
+  outline: none;
 }
 
 form input[type="text"]:focus,
 select:focus {
-  border: 1px solid #9a6014 !important;
+  border: 2px solid #ecc592;
 }
 
 ::placeholder {
